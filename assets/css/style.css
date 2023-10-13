@@ -222,6 +222,15 @@ input:-webkit-autofill:active {
   }
 }
 
+@media (max-width: 425px) {
+  /* .contact-info i{
+    position: absolute;
+    display: block;
+    padding-left: 5px;
+    color: #fff;
+  } */
+}
+
 /* header */
 #header {
   height: 90px;
@@ -380,22 +389,27 @@ input:-webkit-autofill:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 15px;
+  padding: 0px 26px;
   gap: 15px;
-  background-color: #007ACC;
-  outline: 3px #007ACC solid;
+  background-color: #8b8989;
+  /* outline: 3px #007ACC solid; */
   outline-offset: -3px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
   transition: 400ms;
+  color: white;
 }
 
 .button .text {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1em;
   transition: 400ms;
+  padding-top: 13px;
 }
 
 .button svg path {
@@ -407,11 +421,11 @@ input:-webkit-autofill:active {
 }
 
 .button:hover .text {
-  color: #007ACC;
+  color: black;
 }
 
 .button:hover svg path {
-  fill: #007ACC;
+  fill: black;
 }
 
 @media (max-width: 1366px) {
@@ -424,9 +438,19 @@ input:-webkit-autofill:active {
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+@media (max-width: 425px) {
+  .button {
+    padding: 0px 15px;
+    gap: 15px;
+  }
+  
+  .button .text {
+    font-weight: 600;
+    font-size: .8em;
+  }
+}
+
+/* mobile navigation */
 .mobile-nav-toggle {
   color: #545454;
   font-size: 28px;
@@ -1159,60 +1183,6 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #e96b56;
-}
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
-  background: #fff;
-}
-
-.team .member img {
-  max-width: 60%;
-  border-radius: 50%;
-  margin: 0 0 30px 0;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.team .member p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
-}
-
-.team .member .social {
-  margin-top: 15px;
-}
-
-.team .member .social a {
-  color: #919191;
-  transition: 0.3s;
-}
-
-.team .member .social a:hover {
-  color: #e96b56;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
 }
 
 /*--------------------------------------------------------------
