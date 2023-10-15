@@ -1222,9 +1222,7 @@ input:-webkit-autofill:active {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* footer */
 #footer {
   background: #404040;
   padding: 0 0 30px 0;
@@ -1387,9 +1385,6 @@ input:-webkit-autofill:active {
   padding-top: 30px;
 }
 
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
+#footer .copyright span{
+  color: #e6573f;
 }
