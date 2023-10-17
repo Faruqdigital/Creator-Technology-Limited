@@ -622,6 +622,11 @@ input:-webkit-autofill:active {
 }
 
 /* slide section */
+
+.clients{
+  margin-bottom: 100px;
+}
+
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
