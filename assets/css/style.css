@@ -601,8 +601,13 @@ input:-webkit-autofill:active {
 }
 
 .banner_img {
-  max-width: 80%;
-  margin-left: 90px;
+  max-width: 100%;
+  margin-left: 50px;
+  margin-top: 42px;
+}
+
+.banner_img img{
+  border-radius: 10px;
 }
 
 .banner_img:hover {
@@ -647,6 +652,7 @@ input:-webkit-autofill:active {
   /* opacity: 0.5; */
   transition: 0.3s;
   /* filter: grayscale(100); */
+  border-radius: 7px;
 }
 
 .clients .swiper-slide img:hover {
