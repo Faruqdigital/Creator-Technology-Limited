@@ -1093,6 +1093,11 @@ body {
   color: #f0de41;
 }
 
+/* courses */
+.popular-course{
+  margin-bottom: 120px;
+}
+
 /* footer */
 #footer {
   background: #404040;
