@@ -1054,7 +1054,7 @@ body {
 }
 
 /* contact section */
-.contact-us{
+.contact-us {
   margin-bottom: 100px;
 }
 
@@ -1062,11 +1062,36 @@ body {
   margin-top: 88px;
 }
 
-.contact-us .us h3{
+.contact-us .us h3 {
   color: #e96b56;
   font-size: 48px;
 }
 
+/* review swction */
+.review{
+  margin-bottom: 120px;
+}
+
+.card{
+  border: none;
+}
+
+.user-detail img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 14px;
+}
+
+.user-detail h5 span{
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 3px;
+}
+
+.card-title .bxs-star{
+  color: #f0de41;
+}
 
 /* footer */
 #footer {
