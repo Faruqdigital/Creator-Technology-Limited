@@ -1068,81 +1068,81 @@ body {
 }
 
 /* review swction */
-.review{
+.review {
   margin-bottom: 120px;
 }
 
-.card{
+.card {
   border: none;
 }
 
-.user-detail img{
+.user-detail img {
   width: 50px;
   height: 50px;
   border-radius: 50px;
   margin-left: 14px;
 }
 
-.user-detail h5 span{
+.user-detail h5 span {
   font-size: 10px;
   font-weight: 300;
   margin-left: 3px;
 }
 
-.card-title .bxs-star{
+.card-title .bxs-star {
   color: #f0de41;
 }
 
 /* courses */
-.popular-course{
+.popular-course {
   margin-bottom: 120px;
 }
 
 /* graphics */
-.graphics-card-img img{
+.graphics-card-img img {
   border-radius: 10px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
-.graphics-card-img h2{
+.graphics-card-img h2 {
   color: #e6573f;
 }
 
-.graphics-card-img p{
+.graphics-card-img p {
   margin-bottom: 50px;
 }
 
-.graphics-card{
+.graphics-card {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
-.graphics-card img{
+.graphics-card img {
   border-radius: 10px;
 }
 
-.graphics-card .graphics-card-content h4{
+.graphics-card .graphics-card-content h4 {
   font-size: 48px;
 }
 
-.graphics-card .graphics-card-content h3{
+.graphics-card .graphics-card-content h3 {
   margin-bottom: 26px;
 }
 
-.graphics-card .graphics-card-content h3 a{
+.graphics-card .graphics-card-content h3 a {
   background-color: #5fcf80;
   color: white;
   border-radius: 30px;
   padding: 10px 23px;
 }
 
-.graphics-card .graphics-card-content h3 a:hover{
+.graphics-card .graphics-card-content h3 a:hover {
   background-color: #f5bf78
 }
 
-.bxs-message-square-check{
+.bxs-message-square-check {
   color: #e96b56;
   font-size: 27px;
 }
